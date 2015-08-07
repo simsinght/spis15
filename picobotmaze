@@ -1,0 +1,14 @@
+to understand; not mine
+
+#north0
+0 x*** -> N 2
+0 N*** -> x 1
+#east1
+1 *x** -> E 0
+1 *E** -> x 3
+#west2
+2 **x* -> W 3
+2 **W* -> x 0
+#south3
+3 ***x -> S 1
+3 ***S -> x 2
