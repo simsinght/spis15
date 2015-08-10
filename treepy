@@ -1,0 +1,10 @@
+def tree(trunkLength, height):
+    if height > 0:
+        turtle.fd(trunkLength)
+        turtle.left(45)
+        turtle.fd(trunkLength/1.5)
+        turtle.backward(trunkLength/1.5)
+        turtle.right(90)
+        turtle.fd(trunkLength/1.5)
+        turtle.backward(trunkLength/1.5)
+        tree(trunkLength/1.5, height - 1)
